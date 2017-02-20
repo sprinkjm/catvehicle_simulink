@@ -1,3 +1,10 @@
+## definite simulink leave-outs
+*.autosave
+*_rtw
+slprj
+build_ros_model.sh
+*.tgz
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
