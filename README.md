@@ -45,5 +45,6 @@ std_msgs/Bool. The value on /doIt should be:
   * false if the vehicle has not moved yet
   * false if the vehicle is moving
   * true if the vehicle has moved since startup, but is stopped now
+
 The state chart "Chart" keeps track of system state, based on the value of 
 /catvehicle/vel which is the velocity of the car. 
